@@ -1,0 +1,56 @@
+CheckForUpdates=true
+
+ClassicTimer=true
+//This value is leftover from legacy code. Ignore it
+
+LaunchNightfire=true
+
+AskBeforeDownloadingUpdates=true
+
+RawMouseInput=true
+//Raw Mouse Input provides more consistent mouse responsiveness but might not be supported by all systems
+
+DisableMouseAcceleration=true
+//Set to 0 if you prefer classic 1.0 mouse movement. Setting it to 1 will make your mouse movement more accurate
+
+WindowedMode=false
+
+Borderless=false
+//Enables borderless windowed mode
+
+SkipIntroMovies=false
+//Press escape at the console window to get to the main menu
+
+IgnoreMemoryCheck=false
+//If you want to manually set -hunk or -heap, set the above value to 1. This is not recommended to be set to 1.
+
+StartupArguments=
+//You can add extra startup arguments here, such as +connect 127.0.0.1:26015 or other commands
+
+FixScopesinWidescreen=true
+//Set this to 1 if you want to automatically fix stretched scopes on widescreen resolutions
+
+EnableVoiceChat=true
+//Enables voice chat in-game. Uses the default microphone selected in Windows sound settings
+
+VoiceChatKey=k
+//Push to talk key
+
+VoiceInDevice=default
+//If set to default, the input will be set to your default device.
+
+VoiceOutDevice=default
+//If set to default, the output will be set to your default device.
+
+VoiceAmpInput=0
+//This is a value between -5 and 5 to reduce or amplify the volume.
+
+VoiceAmpOutput=0
+//This is a value between -5 and 5 to reduce or amplify the volume.
+
+EnableControllerSupport=true
+//Enables XInput controller support for 360 controllers and other devices
+
+BigScreenMode=false
+//Enables a lower field of view for players at longer distances from the TV screen or monitor
+
